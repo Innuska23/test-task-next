@@ -1,0 +1,39 @@
+.questionNumber {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.questionText {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.answerOption {
+  background-color: var(--color-white);
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.answerInput {
+  visibility: hidden;
+}
+
+.correct {
+  background-color: var(--bg-color-green);
+}
+
+.in_correct {
+  background-color: var(--bg-color-red);
+}
+
+.next_btn {
+  background-color: #41928b;
+  color: var(--color-white);
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

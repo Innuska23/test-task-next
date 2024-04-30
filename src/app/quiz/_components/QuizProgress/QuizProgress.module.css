@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.item_correct {
+  background-color: var(--bg-color-green);
+}
+
+.item_incorrect {
+  background-color: var(--bg-color-red);
+}
