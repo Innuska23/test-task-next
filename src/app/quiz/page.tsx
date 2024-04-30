@@ -9,7 +9,7 @@ import { QuizProgress } from "./_components/QuizProgress/QuizProgress";
 import styles from './page.module.css'
 
 const getData = async () => {
-    const response = await fetch("http://localhost:3000/api/quiz", {
+    const response = await fetch("https://test-task-next-chi.vercel.app/api/quiz", {
         cache: "no-cache",
     });
 
