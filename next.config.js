@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  // basePath: '/test-task-next',
+  output: 'export',
   reactStrictMode: true,
 };
 
